@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sid's ToDo App</title>
+  <link rel="stylesheet" href="/styles/project.css">
+  <script src="/main javascript/main.js"></script>
+</head>
+
+<body>
+  <div class="heading">List your Tasks</div>
+
+  <div class="outermost">
+
+    <div class="Adding-row">
+
+      <input class="input-box" id="todo-title" type="text" placeholder="Enter the task">
+  
+      <input class="Date"  type="date" id="Date-picker">
+  
+      <button class="Add-button"  onclick="Addtodo()">Add Todo</button>
+  
+    </div>
+  
+    <div class="Added-content" id="todo-list"></div>
+  
+  </div>
+  
+  <script>render()</script>
+
+</body>
+
+</html>
