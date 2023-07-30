@@ -1,0 +1,128 @@
+body{
+  font-family:Roboto,Arial;
+  margin-top: 30px;
+  height: 2000px;
+}
+
+.heading{
+  position: fixed;
+  top: 10px;
+  left: 500px;
+  right: 500px;
+  background-color: lightblue;
+  padding: 10px 150px;
+  font-weight: bold;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.outermost{
+  margin-top: 100px;
+  padding:20px 50px;
+}
+
+.Adding-row{
+  min-width: 808px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+
+.input-box{
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(111, 16, 199);
+  width: 300px;
+  font-size: 18px;
+  font-style: bold;
+  padding: 2px 25px;
+  box-shadow: inset 1px 2px 5px 2px rgba(0,0,0,0.3);
+}
+
+.input-box::placeholder{
+  padding: 2px 5px;
+  font-size: 18px;
+  font-style: bold;
+  color: black;
+}
+
+.Date{
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(111, 16, 199);
+  color: black;
+  font-size: 18px;
+  font-style: bold;
+  box-shadow: inset 1px 2px 5px 2px rgba(0,0,0,0.2);
+}
+
+.Add-button{
+  border-radius: 40px;
+  width: 150px;
+  border: none;
+  background-color: rgb(70, 78, 230);
+  color: white;
+  box-shadow: inset 1px 2px 5px 2px rgba(0,0,0,0.3);
+  transition: background-color 0.15s;
+  font-style: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.Add-button:hover{
+  background-color: rgb(60, 59, 59);
+}
+
+.Added-content{
+  margin-top: 20px;
+  height: 50px;
+}
+
+.Entry{
+  min-width: 808px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.task{
+  padding-left: 20px;
+  min-width: 300px;
+  font-size: 18px;
+  font-style: bold;
+}
+
+.Deadline{
+  text-decoration: underline;
+  font-size: 18px;
+  font-style: bold;
+  padding-left: 20px;
+  padding-left: 90px;
+}
+
+.Delete-button{
+  padding-left: 20px;
+}
+
+.delete_button{
+  border-radius: 40px;
+  width: 150px;
+  height: 45px;
+  border: none;
+  background-color: rgb(70, 78, 230);
+  color: white;
+  box-shadow: inset 1px 2px 5px 2px rgba(0,0,0,0.3);
+  transition: background-color 0.15s;
+  font-style: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.delete_button:hover{
+  background-color: rgb(60, 59, 59);
+}
+
